@@ -29,7 +29,6 @@ public class GameControl {
     public void startGame(){
         System.out.println("다리건너기 게임을 시작합니다.\n");
         bridgeMaker.makeBridge(inputView.readBridgeSize());
-        System.out.println(BridgeMaker.bridgeUpDown);
     }
     public List<String> mainGame() {
         resultBridge = retryReset();
